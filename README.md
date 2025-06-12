@@ -18,5 +18,11 @@ I used R2023a
 4. Press 'Left' - Change lane to left
 5. Press 'Right' - Change lane to right
 
+# model
+a variant of Cellular Automate model is used. see slides https://github.com/gotrafficgo/traffic_flow_theory_slides
+  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabiblites
+  2. Each cell is 1 m long -- that is why you see the simulation is quite efficient and animation is quite smooth
+  3. Instantanous lane changing
+
 # still working on convincing myself to release all the code
 Any suggestions are welcome!

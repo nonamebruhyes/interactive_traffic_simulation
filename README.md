@@ -4,15 +4,17 @@ In this (ring-road multi-lane) traffic simulation, one can take the wheel of a c
 # how to use
 1. Matlab is needed
 2. Change settings in "Z_Config.m"
-3. Type "Main_A_Simulation" in Command Window to run the simulation and interactive interface.
-   [1] Press 'Enter' on the keyboard to enter the interactive mode; Press it again to quit.
-   [2] 'Up' - accelerate
-   [3] 'Down' - decelerate
-   [4] 'Left' - Change lane to left
-   [5] 'Right' - Change lane to right
-   [6] Type "Main_B_PlotTrajectory" in Command Window to plot the trajectories
+3. Type "Main_A_Simulation" in Command Window to run the simulation and interactive interface
+4. Type "Main_B_PlotTrajectory" in Command Window to plot the trajectories
 5. Type "Main_C_ReplayAnimation" in Command Window to replay an animation for the simulation process
 6. Simulation results (data) are saved in the folder "SimulationResult"
+
+# how to interact
+1. Press 'Enter' on the keyboard to enter the interactive mode; Press it again to quit
+2. Press 'Up' - accelerate
+3. Press 'Down' - decelerate
+4. Press 'Left' - Change lane to left
+5. Press 'Right' - Change lane to right
 
 # still working on convincing myself to release all the code
 Any suggestions are welcome!

@@ -1,7 +1,7 @@
 # brief intro
 In this (ring-road multi-lane) traffic simulation, one can take the wheel of a car for changing lanes, acceleration and deceleration in real time. Also, one can observe the traffic dynamics and stop-and-go waves through plotting the time-space diagram of trajectories
 
-# Matlab is needed
+# all you need is Matlab
 I used R2023a
 
 # how to use

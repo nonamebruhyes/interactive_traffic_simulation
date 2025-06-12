@@ -26,3 +26,8 @@ a variant of Cellular Automate model is used. see slides https://github.com/gotr
 
 # still working on convincing myself to release all the code
 Any suggestions are welcome!
+
+# what does the simulation look like
+
+# time-space diagram of trajectoris in a lane
+![Random Slide](time-space diagram of trajectories in one lane.png)

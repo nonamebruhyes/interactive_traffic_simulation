@@ -4,7 +4,7 @@ In this (ring-road multi-lane) traffic simulation, one can take the wheel of a c
 # all you need is Matlab
 I used R2023a
 
-# how to use
+# how to run the simulation
   1. Change settings in "Z_Config.m"
   2. Type "Main_A_Simulation" in Command Window to run the simulation and interactive interface
   3. Type "Main_B_PlotTrajectory" in Command Window to plot the trajectories
@@ -28,6 +28,7 @@ a variant of Cellular Automate model is used. see slides https://github.com/gotr
 Any suggestions are welcome!
 
 # what does the simulation look like
+in filming...
 
 # time-space diagram of trajectoris in a lane
 ![Random Slide](time_space_diagram_of_trajectories_in_one_lane.png)

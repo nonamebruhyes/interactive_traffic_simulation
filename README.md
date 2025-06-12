@@ -12,5 +12,6 @@ In this (ring-road multi-lane) traffic simulation, one can take the wheel of a c
    3.5 Right - Change lane to right
 5. Input "Main_B_PlotTrajectory" in Command Window to plot the trajectories
 6. Input "Main_C_ReplayAnimation" in Command Window to replay an animation for the simulation process
+7. Simulation results (data) are saved in the folder "SimulationResult"
 
-# still working on convincing myself to release all the code ^_^
+# still working on convincing myself to release all the code

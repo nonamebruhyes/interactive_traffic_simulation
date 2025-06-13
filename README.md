@@ -20,7 +20,7 @@ I used R2023a
 
 # model
 A variant of Cellular Automata (CA) model is used. see slides for CA https://github.com/gotrafficgo/traffic_flow_theory_slides
-  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabiblites in Config.m
+  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabilities in Config.m
   2. Each cell is 1 m long -- that is why you see the animation is quite smooth
   3. Instantanous lane changing
 

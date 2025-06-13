@@ -36,7 +36,7 @@ Time-space diagram of trajectoris in a lane
 ![Diagram](demo/time_space_diagram_of_trajectories_in_one_lane.png)
 
 # Mario version
-Feel free to let me know if you would like to try the Mario version. LOL
+Try the Mario version by downloading "Multi_Lane_Interaction_GitHub.zip". Have FUN!
 
-![Diagram](demo/mario.png)
+![Diagram](demo/Mario.gif)
 

@@ -1,5 +1,5 @@
 # brief intro
-In this (ring-road multi-lane) traffic simulation, one can take the wheel of a car for changing lanes, acceleration and deceleration in real time. Also, one can observe the traffic dynamics and stop-and-go waves through plotting the time-space diagram of trajectories
+In this (ring-road multi-lane) traffic simulation, one can take the wheel of a car for changing lanes, acceleration and deceleration in real time, also creating congestion. One can observe the traffic dynamics and stop-and-go waves through plotting the time-space diagram of trajectories
 
 # all you need is Matlab
 I used R2023a
@@ -13,15 +13,15 @@ I used R2023a
 
 # how to interact
   1. Press 'Enter' on the keyboard to enter the interactive mode; Press it again to quit
-  2. Press 'Up' - accelerate
-  3. Press 'Down' - decelerate
+  2. Press 'Up' - Accelerate
+  3. Press 'Down' - Decelerate
   4. Press 'Left' - Change lane to left
   5. Press 'Right' - Change lane to right
 
 # model
-A variant of Cellular Automate model is used. see slides https://github.com/gotrafficgo/traffic_flow_theory_slides
-  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabiblites
-  2. Each cell is 1 m long -- that is why you see the simulation is quite efficient and animation is quite smooth
+A variant of Cellular Automata (CA) model is used. see slides for CA https://github.com/gotrafficgo/traffic_flow_theory_slides
+  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabiblites in Config.m
+  2. Each cell is 1 m long -- that is why you see the animation is quite smooth
   3. Instantanous lane changing
 
 # still working on convincing myself to release all the code

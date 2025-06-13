@@ -36,7 +36,7 @@ Time-space diagram of trajectoris in a lane
 ![Diagram](demo/time_space_diagram_of_trajectories_in_one_lane.png)
 
 # Mario version
-Try the Mario version by downloading "Mario_Version.zip". Have FUN!
+Try the Super Mario version by downloading "Mario_Version.zip". Have FUN!
 
 ![Diagram](demo/Mario.gif)
 

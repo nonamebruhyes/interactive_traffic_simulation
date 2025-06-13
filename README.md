@@ -5,7 +5,8 @@ In this (ring-road multi-lane) traffic simulation, one can take the wheel of a c
 I used R2023a
 
 # how to run the simulation
-  1. Change settings in "Z_Config.m"
+  0. Make sure everything is under the same folder
+  1. Change settings in "Z_Setup.m"
   2. Type "Main_A_Simulation" in Command Window to run the simulation and interactive interface
   3. Type "Main_B_PlotTrajectory" in Command Window to plot the trajectories
   4. Type "Main_C_ReplayAnimation" in Command Window to replay an animation for the simulation process
@@ -31,5 +32,10 @@ Any suggestions are welcome!
 Video of the simulation and interaction
 ![Video](demo/video_simulation.gif)
 
-time-space diagram of trajectoris in a lane
+Time-space diagram of trajectoris in a lane
 ![Diagram](demo/time_space_diagram_of_trajectories_in_one_lane.png)
+
+# Mario version
+Feel free to let me know if you would like to try the Mario version. LOL
+![Diagram](demo/Mario.png)
+

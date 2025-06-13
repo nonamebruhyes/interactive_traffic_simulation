@@ -38,5 +38,5 @@ Time-space diagram of trajectoris in a lane
 # Mario version
 Feel free to let me know if you would like to try the Mario version. LOL
 
-![Diagram](demo/Mario.png)
+![Diagram](demo/mario.png)
 

